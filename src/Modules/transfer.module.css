@@ -1,0 +1,51 @@
+.p {
+    color: white;
+    font-size: 120%;
+}
+.box{
+    width: 43%;
+    background-color: rgb(192, 2, 135);
+    color: black;
+    border-radius: 15px;
+}
+.box input{
+    width: 70%;
+    height: 47px;
+    outline: none;
+    border: none;
+    background-color:rgb(192, 2, 135) ;
+    border-bottom: 2px solid black;
+    color: antiquewhite;
+}
+::placeholder{
+    color: white;
+}
+.button{
+    border-radius: 5px;
+    background-color: rgb(192, 2, 135);
+    border-color: rgb(192, 2, 135);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.button:hover{
+    border-radius: 5px;
+    background-color: white;
+    border-color: rgb(192, 2, 135);
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+.error{
+    background-color: black;
+    color: red;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 1140px) {
+    .box{
+        width: 90%;
+    }
+}

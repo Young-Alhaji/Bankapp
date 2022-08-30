@@ -1,0 +1,25 @@
+.body{
+    text-align: center;
+    margin-top: 100px;
+}
+.first{
+    color: rgb(192, 2, 135);
+    font-size: 300%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button{
+    background-color: rgb(192, 2, 135);
+    margin-top: 50px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: white;
+    margin-top: 50px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}

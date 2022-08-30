@@ -1,0 +1,57 @@
+.p{
+    color: red;
+    font-size: 120%;
+    font-weight: bold;
+}
+.n{
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 110%;
+    width: 47%;
+    border-radius: 15px;
+}
+.debit{
+    color: red;
+
+}
+.p2{
+    color: green;
+    font-size: 120%;
+    font-weight: bold;
+}
+.credit{
+    color: green;
+
+}
+.button{
+    background-color: rgb(192, 2, 135);
+    margin-top: 50px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: white;
+    margin-top: 50px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .n{
+        background-color: white;
+        color: black;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 110%;
+        width: 90%;
+        border-radius: 15px;
+    }
+}

@@ -48,7 +48,7 @@
     border: none;
 }
 ::placeholder{
-    color: #e5e5e5;
+    color: black;
 }
 .button{
     margin-top: 50px;
@@ -104,6 +104,10 @@
 }
 .center{
     text-align: center;
+}
+.h5{
+    text-align: center;
+    color: black; 
 }
 .h1{
     color: deepskyblue;

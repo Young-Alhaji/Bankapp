@@ -73,7 +73,7 @@ const SignUp = () => {
     <img src="logo.png" className={styles.logo} alt="page logo"/>Yalhaji
         </h1>
         <h3>Create Account</h3>
-        <h5 className={styles.center}>It's quick and easy.</h5>
+        <h5 className={styles.h5}>It's quick and easy.</h5>
 
         <input className={styles.input} type="text" placeholder="First name" value={firstname} onChange={(e)=>setfirstname(e.target.value)} /> <br />
 
@@ -85,7 +85,7 @@ const SignUp = () => {
         <div></div>
 
         <input className={styles.input} type="password" placeholder="Password" value={password}  onChange={(e)=>setpassword(e.target.value)}/> <br />
-        {passerror? <p className='bg-danger'>Password should have at least one Upper case,a Lower case and a number!</p>:''}
+        {passerror? <p className='bg-danger'>Password should contain at least one Upper case,a Lower case and a number and should be at least 8 characters!</p>:''}
         {error? <p className='bg-danger'>Input all details</p>:''}
         <div className={styles.text}>
         By clicking Sign Up, you agree to our Terms,Data Policy and Cookie Policy.You may receive SMS notifications from us and can opt out at any time.</div>

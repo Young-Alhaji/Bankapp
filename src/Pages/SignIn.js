@@ -36,7 +36,7 @@ const SignIn = ({allUsers}) => {
             <input className={styles.input} type="text" placeholder="Email" id="emai" onChange={(e)=>setlogemail(e.target.value)}/> <br/>
 
             <input className={styles.input} type="password" placeholder="Password" id="pass" onChange={(e)=>setlogpassword(e.target.value)}/> <br/> <br/>
-            {error? <p className='bg-danger'>Invalid email or password inputed</p>:''}
+            {error? <p className='bg-danger'>Invalid email or password input</p>:''}
             <button  className={styles.button} onClick={signin}>Sign In</button> <br/> <br/>
             <div></div>
             <div className={styles.center}> 

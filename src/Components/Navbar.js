@@ -22,8 +22,9 @@ const Navbar = () => {
                 <Link to="/profile"><i class="fa-solid fa-user" style={{marginRight: '15px',fontSize: '170%'}}></i>Profile</Link>
                 <Link to="/transfer"><i class="fa-solid fa-money-bill-transfer" style={{marginRight: '15px',fontSize: '120%'}}></i>Send Money</Link>
                 <Link to="/home/history"><i class="fa-solid fa-phone" style={{marginRight: '15px',fontSize: '150%'}}></i>Transaction history</Link>
-                <Link to="/signin"><i class="fa-solid fa-right-from-bracket" style={{marginRight: '15px',fontSize: '150%'}}></i>Log Out</Link>
                 <Link to="/fundaccount"><i class="fas fa-credit-card" style={{marginRight: '15px',fontSize: '120%'}}></i>Fund Account</Link>
+                <Link to="/signin"><i class="fa-solid fa-right-from-bracket" style={{marginRight: '15px',fontSize: '150%'}}></i>Log Out</Link>
+                
             </div>
             <div className={styles.backgroundcolor}>
                 <span className={styles.navicon} onClick={openNav}>&#9776;</span>
